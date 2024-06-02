@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+  <profile>
+    <name>Jean Michel</name>
+  </profile>
+  <contact>
+    <email>jean.michel@example.com</email>
+    <phone>+33 1 23 45 67 89</phone>
+    <address>123 Rue de l'Exemple, 75001 Paris, France</address>
+  </contact>
+  <summary>
+    <p>Coach sportif professionnel avec plus de 10 ans d'expérience dans le coaching et la formation d'athlètes de haut niveau. Spécialisé en entraînement sportif et préparation physique.</p>
+  </summary>
+  <formations>
+    <formation>Licence en Sciences et Techniques des Activités Physiques et Sportives</formation>
+    <formation>Diplôme d'État de la Jeunesse, de l'Éducation Populaire et du Sport</formation>
+  </formations>
+  <experiences>
+    <experience>Coach de tennis professionnel au Club de Tennis de Paris (2010-2015)</experience>
+    <experience>Coach personnel pour athlètes en préparation olympique (2016-présent)</experience>
+  </experiences>
+  <skills>
+    <skill>Entraînement personnalisé</skill>
+    <skill>Préparation physique</skill>
+    <skill>Analyse des performances</skill>
+    <skill>Nutrition sportive</skill>
+  </skills>
+  <languages>
+    <language>Français (Langue maternelle)</language>
+    <language>Anglais (Courant)</language>
+  </languages>
+</cv>

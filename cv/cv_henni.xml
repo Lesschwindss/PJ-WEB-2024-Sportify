@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+  <profile>
+    <name>Jean Michel</name>
+  </profile>
+  <contact>
+    <email>jean.michel@example.com</email>
+    <phone>+33 1 23 45 67 89</phone>
+    <address>123 Rue de l'Exemple, 75001 Paris, France</address>
+  </contact>
+  <summary>
+    <p>Expert football et testeur de durabilité de télévisions.</p>
+  </summary>
+  <formations>
+    <formation>Licence en Sciences et Techniques des Activités Physiques et Sportives</formation>
+    <formation>Diplôme d'État de la Jeunesse, de l'Éducation Populaire et du Sport</formation>
+  </formations>
+  <experiences>
+    <experience>fan de l'om depuis ma naissance</experience>
+    <experience>Coach personnel pour athlètes de l'OM (2016-présent)</experience>
+        <experience>consultant durabilité télévisions chez Fnac Darty</experience>
+  </experiences>
+  <skills>
+    <skill>Entraînement personnalisé</skill>
+    <skill>Préparation physique</skill>
+    <skill>intidimation de l'équipe adverse</skill>
+    <skill>destruction de TV</skill>
+  </skills>
+  <languages>
+    <language>Français (Langue maternelle)</language>
+       <language>Arabe (Langue maternelle)</language>
+    <language>Anglais (Courant)</language>
+      <language>Marseillais (Courant)</language>
+  </languages>
+</cv>

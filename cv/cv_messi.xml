@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+  <profile>
+    <name>Jean Michel</name>
+  </profile>
+  <contact>
+    <email>jean.michel@example.com</email>
+    <phone>+33 1 23 45 67 89</phone>
+    <address>123 Rue de l'Exemple, 75001 Paris, France</address>
+  </contact>
+  <summary>
+    <p>meilleur joueur.</p>
+  </summary>
+  <formations>
+    <formation>Licence en Sciences et Techniques des Activités Physiques et Sportives</formation>
+    <formation>Diplôme d'État de la Jeunesse, de l'Éducation Populaire et du Sport</formation>
+  </formations>
+  <experiences>
+    <experience>joueur au PSG</experience>
+    <experience>champion du monde avec l'argentine</experience>
+ 
+  </experiences>
+  <skills>
+    <skill>Entraînement personnalisé</skill>
+    <skill>Préparation physique</skill>
+    <skill>tacle assassin</skill>
+    <skill>penalty</skill>
+  </skills>
+  <languages>
+    <language>Français (Courant)</language>
+    <language>Anglais (Courant)</language>
+      <language>Argentin (Courant)</language>
+  </languages>
+</cv>
