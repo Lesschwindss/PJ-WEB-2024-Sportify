@@ -1,0 +1,22 @@
+<availability>
+    <day name="Lundi">
+        <time>06:00-12:00</time>
+        <time>13:00-23:00</time>
+    </day>
+    <day name="Mardi">
+      <time>06:00-12:00</time>
+        <time>13:00-23:00</time>
+    </day>
+    <day name="Mercredi">
+      <time>06:00-12:00</time>
+        <time>13:00-23:00</time>
+    </day>
+    <day name="Jeudi">
+        <time>06:00-12:00</time>
+        <time>13:00-23:00</time>
+    </day>
+    <day name="Vendredi">
+      <time>06:00-12:00</time>
+        <time>13:00-23:00</time>
+    </day>
+</availability>
