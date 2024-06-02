@@ -1,0 +1,356 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.header .text-primary {
+    color: #007bff;
+}
+
+.navbar {
+    background-color: #007bff;
+    margin-bottom: 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #0056b3;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+}
+
+.section {
+    flex: 1;
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.section .content-section {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.section .content-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.section .content-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.section .content-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.section .content-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section .content-section ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.section .content-section ul li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #007bff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.marquee {
+    overflow: hidden;
+    position: relative;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.marquee p {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.limited-img {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    border: 5px solid #ff4d4d;
+    border-radius: 10px;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Coach card styles */
+.coach-card {
+    max-width: 350px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #fff;
+    position: relative;
+}
+
+.coach-card:hover {
+    transform: scale(1.05);
+}
+
+.coach-card .img-container {
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative;
+}
+
+.coach-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.coach-card .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.coach-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.coach-card .card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.coach-card .btn {
+    margin-top: 10px;
+}
+/* Styles for chatroom */
+#loginform {
+    padding-top: 18px;
+    text-align: center;
+}
+#loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 300px;
+    width: 100%;
+    max-width: 530px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+}
+#usermsg {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+    padding: 5px;
+}
+#name {
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+    padding: 2px 8px;
+}
+#submitmsg,
+#enter{
+    background: #ff9800;
+    border: 2px solid #e65100;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.error {
+    color: #ff0000;
+}
+#menu {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu p.welcome {
+    margin: 0;
+}
+a#exit {
+    color: white;
+    background: #c62828;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.msgln {
+    margin: 0 0 5px 0;
+}
+.msgln span.left-info {
+    color: orangered;
+}
+.msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+}
+.msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: #546e7a;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+}
+.msgln b.user-name-left {
+    background: orangered;
+}
+
+/* Styles spécifiques pour les activités sportives */
+.btn-custom {
+    margin: 10px;
+    width: 200px;
+}
+.text-center .btn {
+    margin: 5px;
+}

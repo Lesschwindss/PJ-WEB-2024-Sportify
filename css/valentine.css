@@ -1,0 +1,36 @@
+body.valentine-theme {
+    background-color: #ffe6e6; /* Couleur de fond rose pâle pour la Saint-Valentin */
+}
+
+.valentine-theme .header h1 {
+    color: #ff4d4d; /* Texte rouge pour la Saint-Valentin */
+}
+
+.valentine-theme .section {
+    background-color: #ffcccc; /* Couleur de fond rose pour les sections */
+    color: #b30000; /* Texte rouge foncé */
+}
+
+.valentine-theme .section h2,
+.valentine-theme .section h3 {
+    color: #b30000; /* Texte rouge foncé */
+}
+
+.valentine-theme .marquee {
+    background: #ff4d4d; /* Bandeau défilant rouge */
+    color: #fff; /* Texte blanc */
+}
+
+.valentine-theme .footer {
+    background-color: #ff4d4d; /* Pied de page rouge */
+    color: #fff; /* Texte blanc */
+}
+
+.valentine-theme .carousel-indicators li {
+    background-color: #b30000; /* Points de carrousel rouge foncé */
+}
+
+.valentine-theme .carousel-control-prev-icon,
+.valentine-theme .carousel-control-next-icon {
+    background-color: #b30000; /* Flèches de carrousel rouge foncé */
+}
